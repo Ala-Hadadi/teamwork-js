@@ -16,9 +16,19 @@ document.getElementById("signup-form").addEventListener("submit", async function
         email:email,
         password: password
     };
+    document.addEventListener("DOMContentLoaded", function() {
+        var element = document.getElementById("yourElementId");
+        if (element) {
+            element.addEventListener("click", function() {
+               
+            });
+        } else {
+            console.log("Element not found");
+        }
+    });
     
     try {
-        let response = await fetch("http://localhost:5000/signup", {
+        let response = await fetch("https://67b741f92bddacfb270e55fb.mockapi.io/game", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name, email, password })
