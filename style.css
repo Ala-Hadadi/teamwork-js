@@ -1,7 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: rgb(255, 227, 227);
+  font-style: italic;
+  background-color: rgb(255, 235, 228);
 }
 h1 {
   color: #3d0000;
@@ -9,18 +10,17 @@ h1 {
 .container {
   width: 50%;
   margin: auto;
-  background: white;
-  border-radius: 12px;
+  /* background: white; */
+  /* border-radius: 12px; */
   padding: 20px;
-  box-shadow: 0px 0px 10px rgb(41, 40, 40);
 }
 table {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 th,
 td {
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #ddd;
 }
 th {
