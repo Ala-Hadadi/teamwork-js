@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <h2>Sign Up</h2>
+        <form id="signUpForm">
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter your username"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+          <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm your password"
+            required
+          />
+          <button type="submit">Sign Up</button>
+        </form>
+        <p>
+          Already have an account?
+          <a href="http://127.0.0.1:5500/sing%20in/3.html">Sign In</a>
+        </p>
+        <p id="responseMessage"></p>
+      </div>
+    </div>
+
+    <script src="2.js"></script>
+  </body>
+</html>
