@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-style: italic;
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  color: #3d0000;
+}
+.container {
+  width: 50%;
+  margin: auto;
+  /* background: white; */
+  /* border-radius: 12px; */
+  padding: 20px;
+}
+table {
+  width: 100%;
+  margin-top: 25px;
+}
+th,
+td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #007c9b;
+  color: white;
+}
