@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   font-style: italic;
-  background-color: rgb(255, 235, 228);
+  background-color: rgb(255, 255, 255);
 }
 h1 {
   color: #3d0000;
@@ -24,6 +24,6 @@ td {
   border: 1px solid #ddd;
 }
 th {
-  background-color: #641385;
+  background-color: #007c9b;
   color: white;
 }
