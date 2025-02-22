@@ -17,8 +17,9 @@ document.getElementById("signup-form").addEventListener("submit", async function
         password: password
     };
     
+    
     try {
-        let response = await fetch("http://localhost:5000/signup", {
+        let response = await fetch("https://67b741f92bddacfb270e55fb.mockapi.io/game", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name, email, password })
