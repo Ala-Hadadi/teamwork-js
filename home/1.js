@@ -13,5 +13,5 @@ function signUp() {
 function viewLeaderboard() {
     alert("Opening Leaderboard...");
 
-    window.location.href = "http://127.0.0.1:5500/teamwork-js/index.html";
+    window.location.href = "http://127.0.0.1:5500/scores/index.html";
 }
