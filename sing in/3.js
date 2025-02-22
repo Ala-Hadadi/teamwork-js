@@ -6,6 +6,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     if (email && password) {
         alert("Successfully logged in!");
+        window.location.href="../homeSing.htm"
+
     } else {
         alert("Please enter both email and password.");
     }
