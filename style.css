@@ -1,0 +1,46 @@
+body{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+main{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(241, 245, 241);
+    border: 1px solid rgb(210, 212, 210);
+}
+.cardMain {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.title {
+font-size: xx-large;
+font-style: oblique;
+margin-top: 30px;
+}
+.para{
+    display: flex;
+justify-content: center;
+align-items: center; 
+font-size: 30px;
+margin: 0;
+}
+h6{
+    margin: 20px ;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.button{
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: start; 
+    flex-direction: row;
+}
