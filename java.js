@@ -20,4 +20,7 @@ startEl.addEventListener("click",()=>{
         alert("Please select a difficulty.");
     }
 });
-
+const view=document.querySelector('.button');
+view.addEventListener('click',()=>{
+    window.location.href = "../scores/index.html";
+})
